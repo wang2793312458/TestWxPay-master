@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="net.sourceforge.simcpux.MainActivity">
+
+    <Button
+        android:id="@+id/unifiedorder_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="预支付订单" />
+
+
+
+    <Button
+        android:id="@+id/appay_pre_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pay__pre_by_wxap" />
+    <Button
+        android:id="@+id/appay_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pay_by_wxap" />
+
+
+
+    <TextView
+        android:id="@+id/editText_prepay_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </TextView>
+
+</LinearLayout>
